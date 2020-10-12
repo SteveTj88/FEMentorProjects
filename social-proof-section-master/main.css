@@ -93,7 +93,7 @@ body:after {
 
 .container {
 	max-width: 1000px;
-	margin: 70px auto;
+	margin: 100px auto;
 	padding: 0 20px;
 }
 
@@ -151,12 +151,9 @@ body:after {
 }
 
 .rating-desc {
-	margin-left: 10px;
-}
-
-.rating-desc p {
 	font-weight: 700;
 	color: #511f50;
+	margin-left: 10px;
 }
 
 .fas.fa-star.active {
