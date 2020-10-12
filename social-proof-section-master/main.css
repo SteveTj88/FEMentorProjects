@@ -179,6 +179,14 @@ body:after {
 	width: 300px;
 }
 
+.card:nth-child(2) {
+	transform: translateY(20px);
+}
+
+.card:nth-child(3) {
+	transform: translateY(40px);
+}
+
 .card:not(:last-child) {
 	margin-right: 25px;
 }
@@ -269,6 +277,7 @@ body:after {
 
 	.second .card {
 		margin: 0 0 15px 0;
+		transform: none;
 	}
 }
 
