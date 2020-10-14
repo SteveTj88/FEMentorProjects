@@ -1,8 +1,105 @@
 body {
     font-size: 12px;
     font-family: 'Spartan', sans-serif;
+    line-height: 1.5;
 }
 
 .container {
     max-width: 1440px;
+    margin: 0 auto;
+}
+
+.primary-section,
+.secondary-section {
+    display: flex;
+}
+
+.primary-section {
+    height: 534px;
+    min-height: 534px;
+}
+
+.main-content {
+    width: 840px;
+    max-width: 840px;
+    background-image: url(../images/desktop-image-hero-1.jpg);
+    position: relative;
+}
+
+.main-arrow-con {
+    width: 180px;
+    max-width: 180px;
+    height: 75px;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: -180px;
+}
+
+.left-arrow-con,
+.right-arrow-con {
+    background-color: hsl(0, 0%, 0%);
+    cursor: pointer;
+    width: 90px;
+    max-width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+.left-arrow-con:hover,
+.right-arrow-con:hover {
+    background-color: hsl(0, 0%, 27%);
+}
+
+.main-content-description-con {
+    width: 600px;
+    max-width: 600px;
+    padding: 110px 100px 150px;
+}
+
+.main-content-description-con h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.main-content-description-con p,
+.secondary-content-description-con p {
+    color: hsl(0, 0%, 63%);
+    margin-bottom: 20px;
+}
+
+.secondary-section {
+    height: 266px;
+    min-height: 266px;
+}
+
+.secondary-content-first,
+.secondary-content-second {
+    width: 420px;
+    max-width: 420px;
+}
+
+.secondary-content-first {
+    background-image: url(../images/image-about-dark.jpg);
+}
+
+.secondary-content-description-con {
+    width: 600px;
+    max-width: 600px;
+    padding: 65px 50px;
+}
+
+.secondary-content-description-con h3 {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 15px;
+}
+
+.secondary-content-second {
+    background-image: url(../images/image-about-light.jpg);
 }
